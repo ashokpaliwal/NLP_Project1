@@ -9,7 +9,7 @@ from os.path import isfile, join
 import json
 import pandas as pd
  
-path='/users/ashokpaliwal/Downloads/mohitatbb-machine-learning-assessment-2ef59f0cd1ce/data'
+path='/users/ashokpaliwal/Desktop/NLP_Project1/data'
  
 # Processing JSON files
 json_dir = path + '/docs'
@@ -72,7 +72,7 @@ for label in labels:
             encoded_labels.append(val)
  
 #Import GloVe mappings
-path2='/users/ashokpaliwal/Downloads/glove.6B'
+path2='/users/ashokpaliwal/Desktop/NLP_Project1/glove.6B'
 embeddings_index = dict()
 f = open(path2 + '/' + 'glove.6B.50d.txt', encoding = 'utf8')
 for line in f:
